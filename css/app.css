@@ -1,0 +1,66 @@
+body {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+.login-logo{
+  width: 391px;
+  height: 123px;
+  margin: 0 auto;
+}
+
+.devinar-button{
+  background-color: #E86E0C;
+  box-shadow: 4px 6px 8px grey;
+  padding: 7px 48px;
+  border-radius: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.facebook-login{
+  margin-right: -5px;
+  background-color: #5B75B9;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.facebook-login:hover{
+  background-color: #5B75B9;
+  opacity: 0.9;
+  margin-right: -5px;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.facebook-login:visited{
+  background-color: #5B75B9;
+}
+
+.twitter-login{
+  margin-left: 0px;
+  background-color: #70C5FC;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.twitter-login:hover{
+  background-color: #70C5FC;
+}
+
+.twitter-login:visited{
+  background-color: #70C5FC;
+}
+
+.login-links{
+  text-align: center;
+  color: #999696;
+  font-size: 0.8em
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}
