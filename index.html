@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Devinar | Login</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
@@ -15,19 +15,21 @@
         <figure class="login-logo">
           <img src="img/devinart-logo.png" alt="Devinart">
         </figure>
-        <form action="/" method="post">
-          <label>
-            <input type="text" name="username" placeholder="Username" />
-          </label>
-          <label>
-            <input type="password" name="password" placeholder="Password" />
-          </label>
-          <label>
-            <input type="checkbox" name="remember"> Remember me
-            <button type="button" class="button devinar-button float-right">Log In</button>
-          </label>
+        <div class="row">
+          <form action="/" method="post">
+            <label>
+              <input type="text" name="username" placeholder="Username" />
+            </label>
+            <label>
+              <input type="password" name="password" placeholder="Password" />
+            </label>
+            <label>
+              <input type="checkbox" name="remember"> Remember me
+              <button type="button" class="button devinar-button float-right">Log In</button>
+            </label>
 
-        </form>
+          </form>
+        </div>
         <br>
         <div class="row align-center">
           <a class="button facebook-login" href="#">Login con Facebook</a>
